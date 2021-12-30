@@ -6,7 +6,7 @@ from biblioteca import views
 from contactos.views  import contactos
 from pokemon.views  import get_pokemon,info_pokemon,tipo_pokemon
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    
     url(r'^formulario-buscar/$', views.formulario_buscar),
     url(r'^buscar/$', views.buscar),
     url(r'^lista/$', views.LibrosList.as_view(),name='libro_lista'),

@@ -6,7 +6,9 @@ from biblioteca import views
 from contactos.views  import contactos
 from pokemon.views  import get_pokemon,info_pokemon,tipo_pokemon
 """
-Probandooo
+
+aumento 
+xd
 """
 urlpatterns = [
     

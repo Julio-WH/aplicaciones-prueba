@@ -5,6 +5,9 @@ from django.conf.urls.static import static
 from biblioteca import views
 from contactos.views  import contactos
 from pokemon.views  import get_pokemon,info_pokemon,tipo_pokemon
+"""
+Probandooo
+"""
 urlpatterns = [
     
     url(r'^formulario-buscar/$', views.formulario_buscar),
